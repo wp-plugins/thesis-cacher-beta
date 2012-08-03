@@ -3,7 +3,7 @@ Contributors: mpvanwinkle77
 Tags: performance, Thesis, caching
 Requires at least: 3.0
 Tested up to: 3.4.1
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,9 @@ Pages cached with ThesisCache(r) will only be cleared under the following condit
 
 = 1.2 =
 *Initial version
+
+=1.2.1=
+*Bugfix for plugin directory
 
 == Upgrade Notice ==
 
