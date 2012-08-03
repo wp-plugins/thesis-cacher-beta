@@ -125,6 +125,10 @@ class WPCacheObject {
 	}
 	
 	function prep_cache($key,$flag,$logged) {
+		global $blog_id;
+
+		if($blog_id) 
+			$key = $blog_id.$key; 
 		
 		$this->logged = $logged;
 	
