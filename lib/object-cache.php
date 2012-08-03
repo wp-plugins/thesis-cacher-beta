@@ -1,5 +1,5 @@
 <?php
-include_once(dirname(__FILE__).'/plugins/thesis-cacher/lib/class.cacheobject.php');
+include_once(dirname(__FILE__).'/plugins/thesis-cacher-beta/lib/class.cacheobject.php');
 $GLOBALS['thesis_cache'] = new WPCacheObject();
 /**
  * Object Cache API
