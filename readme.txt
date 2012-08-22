@@ -7,11 +7,11 @@ Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Thesis Cache(r) is designed to integrate WordPress object caching with you thesis theme by giving you page-by-page cache control. 
+Thesis Cache(r) is designed to integrate WordPress object caching with your thesis theme by giving you page-by-page cache control. 
 
 == Description ==
 
-Thesis Cache(r) works with any and all object-caching plugins including W3TotalCache. If no persistent object cache is in use it will install a basic file-based object cache. Thesis Cache(r) gives each post/page/post-type object a meta box to select whether a page is cached, if so for how long, and whether or not to also cache the sidebars on the page. 
+Thesis Cache(r) works with any and all object-caching plugins including W3 Total Cache. If no persistent object cache is in use it will install a basic file-based object cache. Thesis Cache(r) gives each post/page/post-type object a meta box to select whether a page is cached, if so for how long, and whether or not to also cache the sidebars on the page. 
 
 == Installation ==
 
