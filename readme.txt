@@ -3,7 +3,7 @@ Contributors: mpvanwinkle77
 Tags: performance, Thesis, caching
 Requires at least: 3.0
 Tested up to: 3.4.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,12 +39,15 @@ Pages cached with ThesisCache(r) will only be cleared under the following condit
 == Changelog ==
 
 = 1.2 =
-*Initial version
+* Initial version
 
 =1.2.1=
-*Bugfix for plugin directory
+* Bugfix for plugin directory
+
+=1.2.2=
+* Remove object-cache.php upon deactivation, but only if it is the object-cache.php installed by the plugin.
 
 == Upgrade Notice ==
 
-= 1.2 =
-Initial public release
+= 1.2.2 =
+Added deactivation logic: Remove object-cache.php upon deactivation, but only if it is the object-cache.php installed by the plugin.

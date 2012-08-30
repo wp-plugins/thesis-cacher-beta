@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Thesis Cache(r)
-Version: 1.2.1
+Version: 1.2.2
 Description: A plugin to help make your thesis installation leverage caching
 Author: Mike Van Winkle
 Author URI: http://www.mikevanwinkle.com
