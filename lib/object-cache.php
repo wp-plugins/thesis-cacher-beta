@@ -1,4 +1,5 @@
 <?php
+//#THESISCACHER#//
 include_once(dirname(__FILE__).'/plugins/thesis-cacher-beta/lib/class.cacheobject.php');
 $GLOBALS['thesis_cache'] = new WPCacheObject();
 /**

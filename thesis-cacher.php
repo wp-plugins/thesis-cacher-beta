@@ -24,6 +24,22 @@ function thesis_cacher_activate() {
 
 }
 
+register_deactivation_hook(__FILE__,'thesis_cacher_deactivation');
+function thesis_cacher_deactivation() {
+
+		$obcache_file = WP_CONTENT_DIR.'/object-cache.php';
+		if(file_exists($obcache_file)) {
+			
+			$object_cache = file_get_contents($obcache_file);
+
+			//if this is the object-cache installed by thesis cache(r) remove it.
+			if( preg_match("/THESISCACHER/",$object_cache) )
+				unlink($obcache_file);
+		
+		}
+}
+
+
 /*
  * Initialize
  */
